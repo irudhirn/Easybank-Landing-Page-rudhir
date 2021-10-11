@@ -1,0 +1,15 @@
+{
+  "name": "easybank-landing-page",
+  "version": "1.0.0",
+  "description": "Easybank-page",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass app/scss/style.scss dist/style.css",
+    "watch:sass": "node-sass app/scss/style.scss dist/style.css -w"
+  },
+  "author": "Rudhir",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
